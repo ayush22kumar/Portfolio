@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ayush Kumar | Business Analyst</title>
+<meta name="description" content="Portfolio of Ayush Kumar, Business Analyst, with 5+ years across enterprise SaaS, SAP/ERP, and regulated programme delivery. Case studies, experience, and writing." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+<!-- Open Graph / social share preview (static, works even before JS runs) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Ayush Kumar | Business Analyst" />
+<meta property="og:description" content="5+ years across enterprise SaaS, SAP/ERP, and regulated programme delivery, with requirements, delivery, and governance owned end to end. Case studies, experience, and writing." />
+<meta property="og:image" content="assets/og-image.png" />
+<meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/portfolio/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ayush Kumar | Business Analyst" />
+<meta name="twitter:description" content="5+ years across enterprise SaaS, SAP/ERP, and regulated programme delivery, with requirements, delivery, and governance owned end to end." />
+<meta name="twitter:image" content="assets/og-image.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ayush Kumar",
+  "jobTitle": "Business Analyst",
+  "url": "https://YOUR-GITHUB-USERNAME.github.io/portfolio/",
+  "sameAs": ["https://www.linkedin.com/in/ayush22kumar/", "https://github.com/ayush22kumar"],
+  "email": "ayush22kumar97@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Leeds/London", "addressCountry": "UK" }
+}
+</script>
+</head>
+<body data-page="home">
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Ayush Kumar</a>
+    <button class="nav-toggle" aria-label="Toggle menu">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html#about" data-page="home">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="projects.html" data-page="projects">Case studies</a></li>
+      <li><a href="blog.html" data-page="blog">Writing</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<noscript>
+  <div class="wrap" style="padding: 2rem 1.5rem;">
+    <h1>Ayush Kumar | Business Analyst</h1>
+    <p>5+ years across enterprise SaaS, SAP/ERP, and regulated programme delivery, with requirements, delivery, and governance owned end to end. This site works best with JavaScript enabled. In the meantime, you can reach me at
+      <a href="mailto:ayush22kumar97@gmail.com">ayush22kumar97@gmail.com</a> or on
+      <a href="https://www.linkedin.com/in/ayush22kumar/">LinkedIn</a>.</p>
+  </div>
+</noscript>
+
+<main id="main-content">
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Business analysis that turns ambiguity into shipped outcomes.</h1>
+    <p class="role">Five years across enterprise SaaS, SAP/ERP, and regulated programmes. Most recently, I've been running requirements, delivery, and governance solo on an AI product with no assigned product manager.</p>
+    <div class="cta-row">
+      <a href="projects.html">View case studies</a>
+      <button type="button" class="link-btn" id="open-cv-modal">Get my CV</button>
+      <a href="index.html#contact">Get in touch</a>
+    </div>
+    <div class="ledger" id="ledger"></div>
+  </div>
+</header>
+
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head"><h2>About</h2></div>
+    <div class="about-grid">
+      <div>
+        <div id="about-photo"></div>
+        <p id="about-body"></p>
+      </div>
+      <dl class="fact-list" id="about-facts"></dl>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="experience">
+  <div class="wrap">
+    <div class="section-head"><h2>Experience</h2></div>
+    <div id="experience-list"></div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="section-head"><h2>Skills</h2></div>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<section class="section section--alt" id="featured-work">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Selected case studies</h2>
+      <a href="projects.html">View all</a>
+    </div>
+    <div class="carousel">
+      <button type="button" class="carousel-arrow carousel-arrow--prev" data-carousel-target="featured-projects" aria-label="Scroll case studies left">‹</button>
+      <div class="card-list card-list--carousel" id="featured-projects"></div>
+      <button type="button" class="carousel-arrow carousel-arrow--next" data-carousel-target="featured-projects" aria-label="Scroll case studies right">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimonials">
+  <div class="wrap">
+    <div class="section-head"><h2>Recommendations</h2></div>
+    <div id="testimonials-list"></div>
+  </div>
+</section>
+
+<section class="section section--alt" id="writing">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Writing</h2>
+      <a href="blog.html">View all</a>
+    </div>
+    <div class="carousel">
+      <button type="button" class="carousel-arrow carousel-arrow--prev" data-carousel-target="featured-posts" aria-label="Scroll writing left">‹</button>
+      <div class="card-list card-list--carousel" id="featured-posts"></div>
+      <button type="button" class="carousel-arrow carousel-arrow--next" data-carousel-target="featured-posts" aria-label="Scroll writing right">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="section-head"><h2>Get in touch</h2></div>
+    <dl class="fact-list">
+      <dt>Email</dt><dd><a href="mailto:ayush22kumar97@gmail.com">ayush22kumar97@gmail.com</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+447425628440">+44 7425 628440</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/ayush22kumar/">linkedin.com/in/ayush22kumar</a></dd>
+      <dt>Location</dt><dd>Leeds / London, UK</dd>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <small>© <span id="year"></span> Ayush Kumar</small>
+    <ul class="footer-links">
+      <li><a href="https://github.com/ayush22kumar">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/ayush22kumar/">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="cv-modal-backdrop" id="cv-modal-backdrop" hidden>
+  <div class="cv-modal" role="dialog" aria-modal="true" aria-labelledby="cv-modal-title">
+    <button type="button" class="cv-modal-close" id="cv-modal-close" aria-label="Close">&times;</button>
+    <h3 id="cv-modal-title">Request my CV</h3>
+    <p class="cv-modal-copy">Leave your details and I'll follow up with a CV tailored to your role.</p>
+    <form id="cv-modal-form" novalidate>
+      <label for="cv-name">Name</label>
+      <input type="text" id="cv-name" name="name" autocomplete="name" required />
+      <label for="cv-email">Email</label>
+      <input type="email" id="cv-email" name="email" autocomplete="email" required />
+      <label for="cv-company">Company</label>
+      <input type="text" id="cv-company" name="company" autocomplete="organization" required />
+      <button type="submit" class="cv-modal-submit">Request CV</button>
+      <p class="cv-modal-status" id="cv-modal-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+</body>
+</html>
